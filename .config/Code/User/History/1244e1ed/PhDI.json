@@ -1,0 +1,13 @@
+{
+    "workbench.colorTheme": "Bearded Theme Arc Blueberry",
+    "glassit.alpha": 220,
+    "window.titleBarStyle": "custom",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.iconTheme": "bearded-icons",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.startupEditor": "none"
+}

@@ -1,0 +1,51 @@
+2024-10-21 12:33:25.732 [info] [main] Log level: Info
+2024-10-21 12:33:25.732 [info] [main] Validating found git in: "git"
+2024-10-21 12:33:25.732 [info] [main] Using git "2.47.0" from "git"
+2024-10-21 12:33:25.732 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-21 12:33:25.732 [info] > git rev-parse --show-toplevel [312ms]
+2024-10-21 12:33:25.732 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-10-21 12:33:25.732 [info] [Model][openRepository] Opened repository: /home/ash/hyprdots/dots-hyprland
+2024-10-21 12:33:25.760 [info] > git config --get commit.template [22ms]
+2024-10-21 12:33:25.784 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-21 12:33:25.784 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-10-21 12:33:25.930 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ash/hyprdots/dots-hyprland/.git/refs/remotes/origin/main'
+2024-10-21 12:33:26.017 [info] > git rev-parse refs/remotes/origin/main [87ms]
+2024-10-21 12:33:26.029 [info] > git rev-parse --show-toplevel [104ms]
+2024-10-21 12:33:26.069 [info] > git status -z -uall [46ms]
+2024-10-21 12:33:26.069 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [40ms]
+2024-10-21 12:33:26.079 [info] > git rev-parse --show-toplevel [11ms]
+2024-10-21 12:33:26.384 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [296ms]
+2024-10-21 12:33:26.409 [info] > git check-ignore -v -z --stdin [13ms]
+2024-10-21 12:33:26.410 [info] > git config --local branch.main.vscode-merge-base [20ms]
+2024-10-21 12:33:26.410 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-21 12:33:26.416 [info] > git config --get commit.template [36ms]
+2024-10-21 12:33:26.416 [info] > git rev-parse --show-toplevel [41ms]
+2024-10-21 12:33:26.427 [info] > git reflog main --grep-reflog=branch: Created from *. [11ms]
+2024-10-21 12:33:26.491 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [59ms]
+2024-10-21 12:33:26.496 [info] > git rev-parse --show-toplevel [70ms]
+2024-10-21 12:33:26.524 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [28ms]
+2024-10-21 12:33:26.531 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [47ms]
+2024-10-21 12:33:26.541 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ash/hyprdots/dots-hyprland/.git/refs/remotes/origin/main'
+2024-10-21 12:33:26.542 [info] > git config --local branch.main.vscode-merge-base origin/main [12ms]
+2024-10-21 12:33:26.543 [info] > git rev-parse --show-toplevel [20ms]
+2024-10-21 12:33:26.566 [info] > git rev-parse refs/remotes/origin/main [25ms]
+2024-10-21 12:33:26.619 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [45ms]
+2024-10-21 12:33:26.628 [info] > git rev-parse --show-toplevel [70ms]
+2024-10-21 12:33:26.629 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-21 12:33:26.630 [info] > git config --get commit.template [80ms]
+2024-10-21 12:33:26.636 [info] > git config --local branch.main.vscode-merge-base [9ms]
+2024-10-21 12:33:26.673 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [30ms]
+2024-10-21 12:33:26.685 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2024-10-21 12:33:26.693 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [28ms]
+2024-10-21 12:33:26.699 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ash/hyprdots/dots-hyprland/.git/refs/remotes/origin/main'
+2024-10-21 12:33:26.700 [info] > git diff --name-status -z --diff-filter=ADMR 841de6536a248d2afa221462a25f7dda88da7fce...refs/remotes/origin/main [8ms]
+2024-10-21 12:33:26.715 [info] > git rev-parse refs/remotes/origin/main [16ms]
+2024-10-21 12:33:26.729 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-21 12:33:26.742 [info] > git status -z -uall [22ms]
+2024-10-21 12:33:35.298 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-21 12:33:36.153 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-21 12:33:38.436 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-21 12:34:22.233 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/ash/hyprdots/dots-hyprland/.git/HEAD'
+2024-10-21 12:34:22.247 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/ash/hyprdots/dots-hyprland/.git/config'
+2024-10-21 12:34:22.262 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/ash/hyprdots/dots-hyprland/.git/HEAD'
+2024-10-21 12:34:22.272 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/ash/hyprdots/dots-hyprland/.git/config'

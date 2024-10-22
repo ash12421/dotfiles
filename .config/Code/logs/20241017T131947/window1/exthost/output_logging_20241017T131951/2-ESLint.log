@@ -1,0 +1,5 @@
+[Info  - 1:19:56 PM] ESLint server is starting.
+[Info  - 1:19:56 PM] ESLint server running in node v20.16.0
+[Info  - 1:19:56 PM] ESLint server is running.
+[Info  - 1:19:58 PM] ESLint library loaded from: /home/ash/dev/Lambda-CMS/node_modules/.pnpm/eslint@8.57.0/node_modules/eslint/lib/api.js
+[Info  - 1:22:22 PM] ESLint server stopped.

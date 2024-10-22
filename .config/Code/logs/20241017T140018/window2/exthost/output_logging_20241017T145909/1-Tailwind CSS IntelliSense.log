@@ -1,0 +1,55 @@
+Locating server…
+Booting server...
+Checking if /home/ash/dev/vit/vite-project/src/App.css may be Tailwind-related…
+Checking if /home/ash/dev/vit/vite-project/src/index.css may be Tailwind-related…
+Setting up server…
+Listening for messages…
+Searching for Tailwind CSS projects in the workspace's folders.
+[Global] Creating projects: []
+[Global] Preparing projects...
+[Global] Initializing projects...
+[Global] Initialized 0 projects
+[Info  - 2:59:21 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ash/dev/vit/vite-project/src/App.tsx',
+  normalPath: '/home/ash/dev/vit/vite-project/src/App.tsx'
+}
+[Info  - 2:59:21 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ash/dev/vit/vite-project/src/App.tsx',
+  normalPath: '/home/ash/dev/vit/vite-project/src/App.tsx'
+}
+[Info  - 2:59:21 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ash/dev/vit/vite-project/src/App.tsx',
+  normalPath: '/home/ash/dev/vit/vite-project/src/App.tsx'
+}
+[Info  - 2:59:49 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ash/dev/vit/vite-project/node_modules/.pnpm/vite@5.4.9/node_modules/vite/client.d.ts',
+  normalPath: '/home/ash/dev/vit/vite-project/node_modules/.pnpm/vite@5.4.9/node_modules/vite/client.d.ts'
+}
+[Info  - 2:59:49 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ash/dev/vit/vite-project/node_modules/.pnpm/vite@5.4.9/node_modules/vite/client.d.ts',
+  normalPath: '/home/ash/dev/vit/vite-project/node_modules/.pnpm/vite@5.4.9/node_modules/vite/client.d.ts'
+}
+[Info  - 3:00:10 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ash/dev/vit/vite-project/src/main.tsx',
+  normalPath: '/home/ash/dev/vit/vite-project/src/main.tsx'
+}
+[Info  - 3:00:10 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ash/dev/vit/vite-project/src/main.tsx',
+  normalPath: '/home/ash/dev/vit/vite-project/src/main.tsx'
+}
+[Info  - 3:00:10 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ash/dev/vit/vite-project/src/main.tsx',
+  normalPath: '/home/ash/dev/vit/vite-project/src/main.tsx'
+}
+[Info  - 3:00:16 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ash/dev/vit/vite-project/src/index.css',
+  normalPath: '/home/ash/dev/vit/vite-project/src/index.css'
+}
+[Info  - 3:00:16 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ash/dev/vit/vite-project/src/index.css',
+  normalPath: '/home/ash/dev/vit/vite-project/src/index.css'
+}
+[Info  - 3:00:16 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ash/dev/vit/vite-project/src/index.css',
+  normalPath: '/home/ash/dev/vit/vite-project/src/index.css'
+}

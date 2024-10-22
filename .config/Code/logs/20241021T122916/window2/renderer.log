@@ -1,0 +1,16 @@
+2024-10-21 12:33:19.889 [info] Started local extension host with pid 60864.
+2024-10-21 12:33:22.565 [info] [perf] Render performance baseline is 27ms
+2024-10-21 12:33:25.703 [error] [Extension Host] (node:60864) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2024-10-21 12:33:47.475 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-10-21 12:33:48.467 [error] [Extension Host] Error: spawn git ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-10-21 12:33:48.468 [error] [Extension Host] Error: Unexpected SIGPIPE
+	at process.<anonymous> (file:///opt/visual-studio-code/resources/app/out/bootstrap-fork.js:3:12105)
+	at process.emit (node:events:519:28)
+2024-10-21 12:33:49.473 [error] spawn git ENOENT: Error: spawn git ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)

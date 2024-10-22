@@ -1,0 +1,10 @@
+// import Image from "next/image";
+import Header from "@/components/header";
+export default function Home() {
+  return (
+    // <div className="flex bg-slate-500/120 h-[400px] w-full justify-center">
+    //   <p className="text-blue-400 text-7xl  text-center pt-10">Hi</p>
+    // </div>
+    <Header />
+  );
+}

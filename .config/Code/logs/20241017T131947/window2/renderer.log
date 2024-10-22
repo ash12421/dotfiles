@@ -1,0 +1,5 @@
+2024-10-17 13:19:50.350 [info] Started local extension host with pid 14815.
+2024-10-17 13:19:53.892 [info] [perf] Render performance baseline is 60ms
+2024-10-17 13:19:55.124 [error] [Extension Host] (node:14815) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2024-10-17 13:19:55.815 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/ash/.config/i3/config 

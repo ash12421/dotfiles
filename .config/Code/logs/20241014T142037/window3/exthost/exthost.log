@@ -1,0 +1,25 @@
+2024-10-14 14:39:21.786 [info] Extension host with pid 12046 started
+2024-10-14 14:39:21.787 [info] Skipping acquiring lock for /home/ash/.config/Code/User/workspaceStorage/7bcbabe9a42a7aaf71ee33a91c7a9237.
+2024-10-14 14:39:21.825 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-14 14:39:21.829 [info] ExtensionService#_doActivateExtension s-nlf-fh.glassit, startup: true, activationEvent: '*'
+2024-10-14 14:39:21.840 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-10-14 14:39:21.970 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-14 14:39:22.047 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-14 14:39:22.160 [info] Eager extensions activated
+2024-10-14 14:39:22.167 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-14 14:39:22.177 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-14 14:39:22.237 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-14 14:39:22.298 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-14 14:39:22.330 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-14 14:39:22.333 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-14 14:39:22.365 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2024-10-14 14:39:22.435 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2024-10-14 14:39:22.487 [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onStartupFinished'
+2024-10-14 14:39:22.883 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-10-14 14:39:22.944 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-10-14 14:39:23.087 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'api', root cause: ritwickdey.LiveServer
+2024-10-14 14:39:23.990 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-10-14 14:39:28.079 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-14 14:39:29.209 [info] ExtensionService#_doActivateExtension Vue.volar, startup: false, activationEvent: 'onLanguage:plaintext'
+2024-10-14 14:41:02.117 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:http'
+2024-10-14 14:44:08.530 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'

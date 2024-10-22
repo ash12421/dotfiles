@@ -1,0 +1,6 @@
+2024-10-17 14:00:21.898 [info] Started local extension host with pid 27386.
+2024-10-17 14:00:25.011 [info] [perf] Render performance baseline is 53ms
+2024-10-17 14:00:25.990 [error] [Extension Host] (node:27386) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2024-10-17 14:59:13.470 [info] [lifecycle]: Shutdown was prevented by final veto (id: veto.backups)
+2024-10-17 14:59:18.111 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/ash/dev/tutorial/components/navlink.tsx 

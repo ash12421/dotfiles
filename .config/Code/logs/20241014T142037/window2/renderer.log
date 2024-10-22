@@ -1,0 +1,10 @@
+2024-10-14 14:31:39.613 [info] Started local extension host with pid 8538.
+2024-10-14 14:31:41.811 [error] [Extension Host] (node:8538) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2024-10-14 14:31:42.309 [info] [perf] Render performance baseline is 32ms
+2024-10-14 14:31:49.584 [error] [network] #9: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2024-10-14 14:31:58.497 [error] Unknown: Unknown error while installing extension vue.volar
+    at Kl.installFromGallery (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:8299)
+2024-10-14 14:31:58.508 [error] Unknown error while installing extension vue.volar: Unknown: Unknown error while installing extension vue.volar
+    at Kl.installFromGallery (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:8299)
+2024-10-14 14:32:27.956 [warning] [backup tracker] suspended, ignoring unregister event file:///home/ash/dev/vuetest/package.json 

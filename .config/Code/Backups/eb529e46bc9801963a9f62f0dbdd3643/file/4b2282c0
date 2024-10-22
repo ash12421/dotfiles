@@ -1,0 +1,37 @@
+file:///home/ash/dev/Lambda-CMS/components/common/Footer.tsx {"mtime":1728655514869,"ctime":1728655514869,"size":881,"etag":"3d64npqdgsd","orphaned":false,"typeId":""}
+import Image from 'next/image';
+import Link from 'next/link';
+
+export default function Footer() {
+  return (
+    <footer className="mt-10 px-5 py-10 border-t border-white border-opacity-10 ">
+      <Image
+        src={'/Logo.svg'}
+        alt="Lambda"
+        width={80}
+        height={80}
+        className="col-span-2"
+      />
+      <div className="flex space-x-4 px-3 text-lg">
+        <Link
+          href="/toc"
+          className="texWt-[#b4b3b4] hover:text-white transition-colors"
+        >
+          Terms
+        </Link>
+        <Link
+          href="/privacy"
+          className="text-[#b4b3b4] hover:text-white transition-colors"
+        >
+          Privacy
+        </Link>
+        <Link
+          href="/security"
+          className="text-[#b4b3b4] hover:text-white transition-colors"
+        >
+          Security
+        </Link>
+      </div>
+    </footer>
+  );
+}

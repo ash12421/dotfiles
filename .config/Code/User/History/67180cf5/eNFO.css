@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%; /* White background */
+    --foreground: 0 0% 0%; /* Black text */
+    --card: 0 0% 100%; /* White card background */
+    --card-foreground: 0 0% 0%; /* Black card text */
+    --popover: 0 0% 100%; /* White popover background */
+    --popover-foreground: 0 0% 0%; /* Black popover text */
+    --primary: 0 0% 0%; /* Black primary color */
+    --primary-foreground: 0 0% 100%; /* White primary foreground */
+    --secondary: 0 0% 80%; /* Light gray secondary color */
+    --secondary-foreground: 0 0% 0%; /* Black secondary foreground */
+    --muted: 0 0% 90%; /* Very light gray muted color */
+    --muted-foreground: 0 0% 20%; /* Dark gray muted foreground */
+    --accent: 0 0% 80%; /* Light gray accent color */
+    --accent-foreground: 0 0% 0%; /* Black accent foreground */
+    --destructive: 0 0% 50%; /* Medium gray destructive color */
+    --destructive-foreground: 0 0% 100%; /* White destructive foreground */
+    --border: 0 0% 80%; /* Light gray border */
+    --input: 0 0% 80%; /* Light gray input */
+    --ring: 0 0% 0%; /* Black ring */
+    --radius: 0.5rem;
+    --chart-1: 0 0% 20%; /* Dark gray chart color */
+    --chart-2: 0 0% 40%; /* Medium gray chart color */
+    --chart-3: 0 0% 60%; /* Light gray chart color */
+    --chart-4: 0 0% 80%; /* Very light gray chart color */
+    --chart-5: 0 0% 90%; /* Almost white chart color */
+  }
+
+  .dark {
+    --background: 0 0% 100%; /* White background */
+    --foreground: 0 0% 0%; /* Black text */
+    --card: 0 0% 100%; /* White card background */
+    --card-foreground: 0 0% 0%; /* Black card text */
+    --popover: 0 0% 100%; /* White popover background */
+    --popover-foreground: 0 0% 0%; /* Black popover text */
+    --primary: 0 0% 0%; /* Black primary color */
+    --primary-foreground: 0 0% 100%; /* White primary foreground */
+    --secondary: 0 0% 80%; /* Light gray secondary color */
+    --secondary-foreground: 0 0% 0%; /* Black secondary foreground */
+    --muted: 0 0% 90%; /* Very light gray muted color */
+    --muted-foreground: 0 0% 20%; /* Dark gray muted foreground */
+    --accent: 0 0% 80%; /* Light gray accent color */
+    --accent-foreground: 0 0% 0%; /* Black accent foreground */
+    --destructive: 0 0% 50%; /* Medium gray destructive color */
+    --destructive-foreground: 0 0% 100%; /* White destructive foreground */
+    --border: 0 0% 80%; /* Light gray border */
+    --input: 0 0% 80%; /* Light gray input */
+    --ring: 0 0% 0%; /* Black ring */
+    --chart-1: 0 0% 20%; /* Dark gray chart color */
+    --chart-2: 0 0% 40%; /* Medium gray chart color */
+    --chart-3: 0 0% 60%; /* Light gray chart color */
+    --chart-4: 0 0% 80%; /* Very light gray chart color */
+    --chart-5: 0 0% 90%; /* Almost white chart color */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}

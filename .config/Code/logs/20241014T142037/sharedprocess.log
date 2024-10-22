@@ -1,0 +1,29 @@
+2024-10-14 14:20:45.022 [info] Getting Manifest... ms-vscode.vscode-typescript-next
+2024-10-14 14:20:45.163 [info] Installing extension: ms-vscode.vscode-typescript-next {"productVersion":{"version":"1.94.1","date":"2024-10-05T05:44:32.189Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ash/.vscode/extensions/extensions.json","path":"/home/ash/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-10-14 14:20:46.563 [info] Extension signature verification result for ms-vscode.vscode-typescript-next: UnknownError. Executed: true. Duration: 27ms.
+2024-10-14 14:20:46.811 [info] Extracted extension to file:///home/ash/.vscode/extensions/ms-vscode.vscode-typescript-next-5.7.20241013: ms-vscode.vscode-typescript-next
+2024-10-14 14:20:46.822 [info] Renamed to /home/ash/.vscode/extensions/ms-vscode.vscode-typescript-next-5.7.20241013
+2024-10-14 14:20:46.837 [info] Marked extension as uninstalled ms-vscode.vscode-typescript-next-5.7.20241010
+2024-10-14 14:20:46.855 [info] Extension installed successfully: ms-vscode.vscode-typescript-next vscode-userdata:/home/ash/.vscode/extensions/extensions.json
+2024-10-14 14:20:46.903 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ash/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ash/.vscode/extensions/extensions.json.vsctmp'
+    at lm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)
+2024-10-14 14:31:49.659 [info] Getting Manifest... vue.volar
+2024-10-14 14:31:50.819 [info] Installing extension: vue.volar {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ash/.vscode/extensions/extensions.json","path":"/home/ash/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.1","date":"2024-10-05T05:44:32.189Z"}}
+2024-10-14 14:31:50.837 [info] Getting Manifest... vue.volar
+2024-10-14 14:31:50.878 [info] Extension is already requested to install vue.volar vscode-userdata:/home/ash/.vscode/extensions/extensions.json
+2024-10-14 14:31:58.387 [info] Extension signature verification result for vue.volar: UnknownError. Executed: true. Duration: 9ms.
+2024-10-14 14:31:58.448 [info] Extracted extension to file:///home/ash/.vscode/extensions/vue.volar-2.1.6: vue.volar
+2024-10-14 14:31:58.466 [info] Renamed to /home/ash/.vscode/extensions/vue.volar-2.1.6
+2024-10-14 14:31:58.493 [info] Extension installed successfully: vue.volar vscode-userdata:/home/ash/.vscode/extensions/extensions.json
+2024-10-14 14:31:58.557 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ash/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ash/.vscode/extensions/extensions.json.vsctmp'
+    at lm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)

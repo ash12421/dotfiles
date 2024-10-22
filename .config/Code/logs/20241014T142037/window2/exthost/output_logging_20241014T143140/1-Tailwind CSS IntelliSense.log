@@ -1,0 +1,30 @@
+Locating server…
+Booting server...
+Checking if /home/ash/dev/vuetest/src/index.css may be Tailwind-related…
+Setting up server…
+Listening for messages…
+Searching for Tailwind CSS projects in the workspace's folders.
+[Global] Creating projects: []
+[Global] Preparing projects...
+[Global] Initializing projects...
+[Info  - 2:31:44 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ash/dev/vuetest/src/components/HelloWorld.vue',
+  normalPath: '/home/ash/dev/vuetest/src/components/HelloWorld.vue'
+}
+[Global] Initialized 0 projects
+[Info  - 2:32:04 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ash/dev/vuetest/src/components/HelloWorld.vue',
+  normalPath: '/home/ash/dev/vuetest/src/components/HelloWorld.vue'
+}
+[Info  - 2:32:19 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ash/dev/vuetest/src/App.vue',
+  normalPath: '/home/ash/dev/vuetest/src/App.vue'
+}
+[Info  - 2:32:19 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ash/dev/vuetest/src/App.vue',
+  normalPath: '/home/ash/dev/vuetest/src/App.vue'
+}
+[Info  - 2:32:19 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ash/dev/vuetest/src/App.vue',
+  normalPath: '/home/ash/dev/vuetest/src/App.vue'
+}

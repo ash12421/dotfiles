@@ -1,0 +1,40 @@
+2024-10-17 13:19:56.138 [info] [main] Log level: Info
+2024-10-17 13:19:56.138 [info] [main] Validating found git in: "git"
+2024-10-17 13:19:56.138 [info] [main] Using git "2.47.0" from "git"
+2024-10-17 13:19:56.138 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-17 13:19:56.138 [info] > git rev-parse --show-toplevel [12ms]
+2024-10-17 13:19:56.138 [info] > git rev-parse --git-dir --git-common-dir [43ms]
+2024-10-17 13:19:56.138 [info] [Model][openRepository] Opened repository: /home/ash/dev/Lambda-CMS
+2024-10-17 13:19:56.164 [info] > git rev-parse --show-toplevel [265ms]
+2024-10-17 13:19:56.166 [info] > git config --get commit.template [276ms]
+2024-10-17 13:19:56.227 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-17 13:19:56.227 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2024-10-17 13:19:56.250 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ash/dev/Lambda-CMS/.git/refs/remotes/origin/main'
+2024-10-17 13:19:56.252 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-10-17 13:19:56.277 [info] > git rev-parse --show-toplevel [38ms]
+2024-10-17 13:19:56.791 [info] > git status -z -uall [527ms]
+2024-10-17 13:19:56.792 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [516ms]
+2024-10-17 13:19:56.860 [info] > git check-ignore -v -z --stdin [44ms]
+2024-10-17 13:19:56.862 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [57ms]
+2024-10-17 13:19:56.869 [info] > git rev-parse --show-toplevel [88ms]
+2024-10-17 13:19:56.883 [info] > git config --local branch.main.vscode-merge-base [14ms]
+2024-10-17 13:19:56.890 [info] > git config --get commit.template [37ms]
+2024-10-17 13:19:56.921 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [31ms]
+2024-10-17 13:19:56.933 [info] > git rev-parse --show-toplevel [54ms]
+2024-10-17 13:19:57.018 [info] > git merge-base refs/heads/main refs/remotes/origin/main [85ms]
+2024-10-17 13:19:57.080 [info] > git diff --name-status -z --diff-filter=ADMR 3b59bb952587c79699471bbbe0faf8dacb6cf921...refs/remotes/origin/main [56ms]
+2024-10-17 13:19:57.080 [info] > git rev-parse --show-toplevel [74ms]
+2024-10-17 13:19:57.080 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [93ms]
+2024-10-17 13:19:57.101 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ash/dev/Lambda-CMS/.git/refs/remotes/origin/main'
+2024-10-17 13:19:57.465 [info] > git rev-parse refs/remotes/origin/main [364ms]
+2024-10-17 13:19:57.480 [info] > git rev-parse --show-toplevel [388ms]
+2024-10-17 13:19:57.511 [info] > git status -z -uall [37ms]
+2024-10-17 13:19:57.511 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [31ms]
+2024-10-17 13:19:57.541 [info] > git rev-parse --show-toplevel [34ms]
+2024-10-17 13:19:57.576 [info] > git rev-parse --show-toplevel [6ms]
+2024-10-17 13:19:57.590 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-17 13:19:57.648 [info] > git rev-parse --show-toplevel [48ms]
+2024-10-17 13:19:57.651 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-17 13:19:57.678 [info] > git show --textconv :components/common/Footer.tsx [16ms]
+2024-10-17 13:19:57.678 [info] > git ls-files --stage -- /home/ash/dev/Lambda-CMS/components/common/Footer.tsx [5ms]
+2024-10-17 13:19:57.706 [info] > git cat-file -s 332c412e46f6df0aca5d000d25ede3e5211b785b [16ms]

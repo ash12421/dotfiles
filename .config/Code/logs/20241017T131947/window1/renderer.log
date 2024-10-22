@@ -1,0 +1,6 @@
+2024-10-17 13:19:50.592 [info] Started local extension host with pid 14824.
+2024-10-17 13:19:55.689 [info] [perf] Render performance baseline is 105ms
+2024-10-17 13:19:56.776 [error] [Extension Host] (node:14824) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2024-10-17 13:22:22.868 [warning] [backup tracker] suspended, ignoring unregister event file:///home/ash/dev/Lambda-CMS/package.json 
+2024-10-17 13:22:22.869 [warning] [backup tracker] suspended, ignoring unregister event file:///home/ash/dev/Lambda-CMS/.next/types/package.json 

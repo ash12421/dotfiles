@@ -1,0 +1,6 @@
+2024-10-17 13:19:47.397 [info] update#setState idle
+2024-10-17 13:19:55.950 [info] Extension host with pid 14815 exited with code: 0, signal: unknown.
+2024-10-17 13:19:55.966 [error] [UtilityProcessWorker]: terminated unexpectedly with code 1200523120, signal: unknown
+2024-10-17 13:20:17.378 [info] update#setState checking for updates
+2024-10-17 13:20:17.470 [info] update#setState idle
+2024-10-17 13:22:22.912 [info] Extension host with pid 14824 exited with code: 0, signal: unknown.
